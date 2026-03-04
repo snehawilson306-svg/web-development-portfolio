@@ -1,0 +1,28 @@
+{
+    "siteName": "My Blog",
+    "layout": {
+        "type": "single-column"
+    },
+    "navigation": {
+        "position": "top",
+        "items": [
+            {
+                "label": "Blog",
+                "href": "#"
+            },
+            {
+                "label": "Categories",
+                "href": "#"
+            },
+            {
+                "label": "About Me",
+                "href": "#"
+            }
+        ]
+    },
+    "colors": {
+        "primary": "#e67e22",
+        "secondary": "#2c3e50",
+        "background": "#ffffff"
+    }
+}
