@@ -1,0 +1,29 @@
+{
+    "siteName": "Business Website",
+    "layout": {
+        "type": "two-column",
+        "sidebarPosition": "left"
+    },
+    "navigation": {
+        "position": "top",
+        "items": [
+            {
+                "label": "Services",
+                "href": "#"
+            },
+            {
+                "label": "Pricing",
+                "href": "#"
+            },
+            {
+                "label": "Contact",
+                "href": "#"
+            }
+        ]
+    },
+    "colors": {
+        "primary": "#27ae60",
+        "secondary": "#1e8449",
+        "background": "#ecfdf5"
+    }
+}

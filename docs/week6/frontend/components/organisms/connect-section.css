@@ -1,0 +1,52 @@
+.connect-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    z-index: 2;
+}
+
+.content {
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Decorative Circles */
+.background-left,
+.background-right {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, #1e3a8a 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.background-left {
+    left: -100px;
+    top: 250px;
+}
+
+.background-right {
+    right: -100px;
+    top: 250px;
+}
