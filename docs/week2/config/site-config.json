@@ -1,0 +1,29 @@
+{
+    "siteName": "Demo Website",
+    "layout": {
+        "type": "two-column",
+        "sidebarPosition": "left"
+    },
+    "navigation": {
+        "position": "top",
+        "items": [
+            {
+                "label": "Home",
+                "href": "index.html"
+            },
+            {
+                "label": "About",
+                "href": "about.html"
+            },
+            {
+                "label": "Contact",
+                "href": "contact.html"
+            }
+        ]
+    },
+    "colors": {
+        "primary": "#3498db",
+        "secondary": "#2c3e50",
+        "background": "#ecf0f1"
+    }
+}

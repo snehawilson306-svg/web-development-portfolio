@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 1 Website Layouts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h2 {
+            margin-top: 60px;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        /* Two Column */
+        .two-column {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            width: 70%;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Three Column */
+        .three-column {
+            display: flex;
+        }
+
+        .left,
+        .right {
+            width: 20%;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .center {
+            width: 60%;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Week 1 Website Layout Diagrams</h1>
+
+    <!-- Single Column -->
+    <h2>1. Single-Column Layout</h2>
+    <div class="box">HEADER</div>
+    <div class="box">NAVIGATION</div>
+    <div class="box">CONTENT</div>
+    <div class="box">FOOTER</div>
+
+    <!-- Two Column -->
+    <h2>2. Two-Column Layout</h2>
+    <div class="box">HEADER</div>
+    <div class="two-column">
+        <div class="sidebar">SIDEBAR</div>
+        <div class="content">CONTENT</div>
+    </div>
+    <div class="box">FOOTER</div>
+
+    <!-- Three Column -->
+    <h2>3. Three-Column Layout</h2>
+    <div class="box">HEADER</div>
+    <div class="three-column">
+        <div class="left">LEFT SIDEBAR</div>
+        <div class="center">MAIN CONTENT</div>
+        <div class="right">RIGHT SIDEBAR</div>
+    </div>
+    <div class="box">FOOTER</div>
+
+    <!-- Changes vs Stays the Same -->
+    <h2>4. What Changes vs What Stays the Same</h2>
+
+    <table>
+        <tr>
+            <th>Changes Between Websites</th>
+            <th>Stays the Same</th>
+        </tr>
+        <tr>
+            <td>Colors</td>
+            <td>Basic structure (Header / Content / Footer)</td>
+        </tr>
+        <tr>
+            <td>Logos</td>
+            <td>Need for navigation</td>
+        </tr>
+        <tr>
+            <td>Menu items</td>
+            <td>Need to display content/data</td>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>Core layout patterns</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

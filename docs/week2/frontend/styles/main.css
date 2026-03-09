@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Two-column layout */
+.layout-two-column {
+    display: flex;
+    gap: 20px;
+}
+
+.layout-two-column main {
+    flex: 1;
+}
+
+.layout-two-column aside {
+    width: 250px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurable Website</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+    <header id="site-header"></header>
+
+    <nav id="site-nav"></nav>
+
+    <div class="container" id="main-container">
+
+        <main id="content">
+            <h1>Welcome!</h1>
+            <p>This layout is controlled by configuration.</p>
+        </main>
+
+        <!-- Posts will be loaded dynamically here -->
+        <div id="posts-container"></div>
+
+    </div>
+
+    <footer id="site-footer"></footer>
+
+    <!-- Load configuration script -->
+    <script src="scripts/config-loader.js"></script>
+
+</body>
+
+</html>
